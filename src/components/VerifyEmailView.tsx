@@ -46,6 +46,7 @@ export default function VerifyEmailView (props: Props) {
           </p>
           <button
             onClick={(e) => {
+              console.log(`Sending sign in link to ${props.userEmail}`)
               sendSignInLinkToEmail(props.userEmail)
             }}>
               Resend Verification Email
