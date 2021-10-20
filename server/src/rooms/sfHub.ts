@@ -2,7 +2,7 @@ export const sfHub = {
   id: 'sfHub',
   displayName: 'Space Hangar Observation Lounge',
   shortName: 'the Space Lounge',
-  description: 'An impossibly fast elevator whisks you up to a bright lounge of steel, chrome, and futuristic plastics. Spacecraft of all shapes and sizes constantly come and go in view of the giant observation window. Constrasting the vast depths of space, the lounge itself is strangely cozy. Floor-to-ceiling hexagonal bookshelves provide all the reading material you could ask for, with oddly shaped but fluffy ottoman-like chairs to settle into. A [[vending machine->vendingMachine]] offers refreshment, along with an extensive bar serving Cosmic Cryo-Brewed Coffee, Terrific Techno-Tea, and apple juice.</br></br>A little robot, sensing you might need a place to relax quietly, beckons you to the [[Robot Fabrication Lab->robots]]. In the corner, a [[dusty machine->timeMachine]] blinks invitingly. You can also go back to the central [[hall]].',
+  description: 'An impossibly fast elevator whisks you up to a bright lounge of steel, chrome, and futuristic plastics. Spacecraft of all shapes and sizes constantly come and go in view of the giant observation window. Constrasting the vast depths of space, the lounge itself is strangely cozy. Floor-to-ceiling hexagonal bookshelves provide all the reading material you could ask for, with oddly shaped but fluffy ottoman-like chairs to settle into. A [[vending machine->vendingMachine]] offers refreshment, along with an extensive bar serving Cosmic Cryo-Brewed Coffee, Terrific Techno-Tea, and apple juice.</br></br>A little robot, sensing you might need a place to relax quietly, beckons you to the [[Ops Room->robots]]. In the corner, a [[dusty machine->timeMachine]] blinks invitingly. You can also go back to the central [[hall]].',
   hasNoteWall: true,
   noteWallData: {
     roomWallDescription: 'Among the seemingly infinite bookshelves, one has been emptied out and contains only a small pile of notebooks. A sign next to it reads "BOOKMARKS - PLEASE HELP US SIFT THE GOOD STUFF!"',
@@ -15,10 +15,22 @@ export const sfHub = {
 
 export const robots = {
   id: 'robots',
-  displayName: 'Robot Fabrication Lab',
-  shortName: 'the robot lab',
-  noMediaChat: true,
-  description: 'This room is dominated by the quiet hum of machinery doing what it was designed to with minimal fuss and expertly crafted efficiency. Sprockets are being socketed in in one device. A robot arm picks up the socketed sprocket and passes it to a CNC spot welder, which welds it closed. The locked socketed sprockets are conveyed into an opening on the biggest machine, just one of many components for [[the robots->watchRobot]] produced at this fab lab. The entire dance is carried out with a ballet-like elegance, not a movement wasted. It\'s aggressively, profoundly satisfying. When you feel ready, you can go back to the [[Space Hangar->sfHub]].'
+  displayName: 'Operations Room',
+  shortName: 'opsroom',
+  noMediaChat: false,
+  description: `A hexagonal room with seven white fiberglass swivel chairs with orange
+  cushions arranged in an inward-facing circle. Each chair has a control
+  panel on the right armrest with several large chunky buttons and a
+  heavy dial, and on the left armrest of each is an ashtray and a holder
+  about the size of a glass of whiskey. There is a slide projector
+  hanging from the center of the ceiling; You can barely hear the whir
+  of its fan over the clacking coming from the [[datafeed
+  telex->readTelex]] in one corner. There is cigar smoke hanging in the
+  air.<br/><br/>
+  
+  It's aggressively, profoundly retro modern. When you feel ready, you
+  can go back to the [[Space Hangar->sfHub]].
+  `
 }
 
 export const timeMachine = {
