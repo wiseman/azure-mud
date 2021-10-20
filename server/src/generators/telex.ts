@@ -50,13 +50,7 @@ export const generate = () => {
       'LINEBACKER',
       'CHEERLEADER'
     ],
-    time: [
-      '22',
-      '34',
-      '36',
-      '19',
-      '47'
-    ],
+    time: () => `${Math.floor(Math.random() * 60)}`.padStart(2, '0'),
     nato: [
       'ALPHA',
       'BRAVO',
