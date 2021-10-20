@@ -13,6 +13,7 @@ export const generate = () => {
     ],
     options: [
       '#eam#',
+      '#disregardEam#',
       'STANDING BY FOR TRAFFIC',
       // Wargames
       'SKYBIRD THIS IS DROPKICK WITH RED ALPHA MESSAGE IN TWO PARTS',
@@ -21,6 +22,9 @@ export const generate = () => {
     ],
     eam: [
       'SKYKING SKYKING DO NOT ANSWER #codeWord# TIME #time# AUTHENTICATION #nato# #nato#'
+    ],
+    disregardEam: [
+      'DISREGARD MY #codeWord# TRANSMITTED AT #time# AUTH #nato# #nato#'
     ],
     codeWord: [
       'BILBO',
@@ -41,7 +45,10 @@ export const generate = () => {
       'POISON',
       'WHITE SNAKE',
       'LEBOWSKI',
-      'WEEZER'
+      'WEEZER',
+      'QUARTERBACK',
+      'LINEBACKER',
+      'CHEERLEADER'
     ],
     time: [
       '22',
