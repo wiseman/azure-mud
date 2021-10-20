@@ -9,7 +9,7 @@ export const actionString = (robot: string) => {
 export const generate = () => {
   var grammar = tracery.createGrammar({
     origin: [
-      '#options#'
+      'The telex chatters: #options#'
     ],
     options: [
       '#eam#',
