@@ -9,7 +9,11 @@ export const actionString = (robot: string) => {
 export const generate = () => {
   var grammar = tracery.createGrammar({
     origin: [
-      '#eam#'
+      '#eam#',
+      'STANDING BY FOR TRAFFIC',
+      // Wargames
+      'SKYBIRD THIS IS DROPKICK WITH RED ALPHA MESSAGE IN TWO PARTS',
+      'ROMEO OSCAR NOVEMBER CHARLIE TANGO LIMA ALPHA AUTHENTICATION 220040 DELTA LIMA'
     ],
     eam: [
       'SKYKING SKYKING DO NOT ANSWER #codeWord# TIME #time# AUTHENTICATION #nato# #nato#'
