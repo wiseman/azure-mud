@@ -9,11 +9,15 @@ export const actionString = (robot: string) => {
 export const generate = () => {
   var grammar = tracery.createGrammar({
     origin: [
+      '<tt>#options#</tt>'
+    ],
+    options: [
       '#eam#',
       'STANDING BY FOR TRAFFIC',
       // Wargames
       'SKYBIRD THIS IS DROPKICK WITH RED ALPHA MESSAGE IN TWO PARTS',
-      'ROMEO OSCAR NOVEMBER CHARLIE TANGO LIMA ALPHA AUTHENTICATION 220040 DELTA LIMA'
+      'ROMEO OSCAR NOVEMBER CHARLIE TANGO LIMA ALPHA AUTHENTICATION 220040 DELTA LIMA',
+      '#andromedaStrain'
     ],
     eam: [
       'SKYKING SKYKING DO NOT ANSWER #codeWord# TIME #time# AUTHENTICATION #nato# #nato#'
@@ -56,6 +60,9 @@ export const generate = () => {
       'XRAY',
       'YANKEE',
       'ZULU'
+    ],
+    andromedaStrain: [
+      'SCENARIO ▶ WILDFIRE BIOWAR MAP ◀<br/><br/>SIMULATED TOXIC EXCHANGE ▶<br/><br/>WEAPONRY ▶ ANDROMEDA<br/><br/>WEIGHTED FOR WIND AND POP. ◀'
     ]
   })
 
