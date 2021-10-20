@@ -9,11 +9,7 @@ export const actionString = (robot: string) => {
 export const generate = () => {
   var grammar = tracery.createGrammar({
     origin: [
-      '#eam#',
-      '#soundEffect#! You watch #visualCues.a# #robot# rolls off the assembly line that #activities#.',
-      'You see #visualCues.a# #robot# roll off the assembly line. A part of you wishes you could adopt it for yourself.',
-      'You watch as #visualCues.a# #robot# is made.',
-      'You watch as #robot.a# that #activities# is made.'
+      '#eam#'
     ],
     eam: [
       'SKYKING SKYKING DO NOT ANSWER #codeWord# TIME #time# AUTHENTICATION #nato# #nato#'
