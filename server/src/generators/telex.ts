@@ -9,7 +9,7 @@ export const actionString = (robot: string) => {
 export const generate = () => {
   var grammar = tracery.createGrammar({
     origin: [
-      '<tt>#options#</tt>'
+      '#options#'
     ],
     options: [
       '#eam#',
@@ -85,7 +85,7 @@ export const generate = () => {
       'ZULU'
     ],
     andromedaStrain: [
-      'SCENARIO ▶ WILDFIRE BIOWAR MAP ◀<br/><br/>SIMULATED TOXIC EXCHANGE ▶<br/><br/>WEAPONRY ▶ ANDROMEDA<br/><br/>WEIGHTED FOR WIND AND POP. ◀'
+      'SCENARIO ▶ WILDFIRE BIOWAR MAP ◀ SIMULATED TOXIC EXCHANGE ▶ WEAPONRY ▶ ANDROMEDA ▶ WEIGHTED FOR WIND AND POP. ◀'
     ]
   })
 
