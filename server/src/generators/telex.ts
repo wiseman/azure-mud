@@ -27,12 +27,28 @@ export const generate = () => {
       'GANDALF',
       'NAZGUL',
       'GOLLUM',
-      'MORDOR'
+      'MORDOR',
+      'SPRINGSTEEN',
+      'RUSH',
+      'DURAN DURAN',
+      'SKYNYRD',
+      'ROSES',
+      'THE DOORS',
+      'ROWLING',
+      'TALIO',
+      'THE WHO',
+      'TOOL',
+      'POISON',
+      'WHITE SNAKE',
+      'LEBOWSKI',
+      'WEEZER'
     ],
     time: [
       '22',
       '34',
-      '19'
+      '36',
+      '19',
+      '47'
     ],
     nato: [
       'ALPHA',
