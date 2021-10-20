@@ -18,7 +18,7 @@ export const generate = () => {
       // Wargames
       'SKYBIRD THIS IS DROPKICK WITH RED ALPHA MESSAGE IN TWO PARTS',
       'ROMEO OSCAR NOVEMBER CHARLIE TANGO LIMA ALPHA AUTHENTICATION 220040 DELTA LIMA',
-      '#andromedaStrain'
+      '#andromedaStrain#'
     ],
     eam: [
       'SKYKING SKYKING DO NOT ANSWER #codeWord# TIME #time# AUTHENTICATION #nato# #nato#'
