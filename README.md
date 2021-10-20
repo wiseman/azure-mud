@@ -1,4 +1,4 @@
-# Yet Another Browser Mud
+# Yet Another Browser Mudd
 ![Linting and Validation Checks](https://github.com/lazerwalker/azure-mud/workflows/Linting%20and%20Validation%20Checks/badge.svg) [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com?WT.mc_id=spatial-8206-emwalker/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Flazerwalker%2Fazure-mud%2Fmain%2Fserver%2Ftemplate.json)
 
 This is a playful text-based online social chat space. You can think of it as a hybrid between communication apps like Slack and Discord and traditional text-based online game spaces such as MUDs and MOOs.
