@@ -50,7 +50,21 @@ export const generate = () => {
       'LINEBACKER',
       'CHEERLEADER'
     ],
-    time: () => `${Math.floor(Math.random() * 60)}`.padStart(2, '0'),
+    time: [
+      '01',
+      '07',
+      '10',
+      '11',
+      '19',
+      '22',
+      '27',
+      '30',
+      '34',
+      '36',
+      '47',
+      '52',
+      '54'
+    ],
     nato: [
       'ALPHA',
       'BRAVO',
@@ -79,7 +93,7 @@ export const generate = () => {
       'ZULU'
     ],
     andromedaStrain: [
-      'SCENARIO ▶ WILDFIRE BIOWAR MAP ◀ SIMULATED TOXIC EXCHANGE ▶ WEAPONRY ▶ ANDROMEDA ▶ WEIGHTED FOR WIND AND POP. ◀'
+      'SCENARIO ▶ WILDFIRE BIOWAR MAP ◀ SIMULATED TOXIC EXCHANGE ▶ WEAPONRY ▶ ANDROMEDA ▶ WEIGHTED FOR WIND AND POP.'
     ]
   })
 
